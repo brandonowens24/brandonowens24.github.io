@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h2 span {
   color: #ffc107;
-  border-bottom: 2px solid #ff7b47;
+  border-bottom: 2px solid #ffc107;
   padding-bottom: 6px;
 }
 
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #9e7f25;
+  color: #ff7b47;
   text-decoration: none;
 }
 
