@@ -15,11 +15,10 @@ about:
 
 This project involves the collection of daily NBA data including:
 
-- [x] Officials officiating.
-- [x] Games being played that night.
-- [x] Statistics from games played the previous night.
-- [x] Updated player stats.
-- [x] Updated team stats.
-  
-This aggregation of data is implemented using an **AWS Lambda Function**. This data is collected nightly via **AWS Cloudwatch** where it is stored in an **AWS RDS SQL Instance**. It is then pulled to use evaluation to predict nightly moneylines for occurring NBA games.
+-   [x] Officials officiating.
+-   [x] Games being played that night.
+-   [x] Statistics from games played the previous night.
+-   [x] Updated player stats.
+-   [x] Updated team stats.
 
+This aggregation of data is implemented using an **AWS Lambda Function**. This data is collected nightly via **AWS Cloudwatch** where it is stored in an **AWS RDS SQL Instance**. It is then pulled to use evaluation to predict nightly moneylines for occurring NBA games.

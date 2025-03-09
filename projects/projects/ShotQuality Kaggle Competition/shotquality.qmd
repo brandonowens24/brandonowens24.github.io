@@ -17,7 +17,6 @@ about:
     - icon: github
       text: "GitHub"
       href: https://github.com/brandonowens24/ShotQuality-3pt-Kaggle-Competition/tree/main
-
 ---
 
 The following notebook consisted of my submission for [ShotQuality's Kaggle](https://www.kaggle.com/competitions/quantifying-3-pt-def-in-ncaam-with-tracking-data) and looked to compete within the following prompt:
@@ -38,31 +37,12 @@ This competition uses two different types of datasets. Play-by-play data, often 
 
 Note that all shots in the train or test set are misses that are rebounded by the offensive or defensive team. A shot is from the coordinates where annotation_code == "s" in train_locs.csv and test_locs.csv.
 
-Coordinates for key locations on the court are (position | x,y)
+Coordinates for key locations on the court are (position \| x,y)
 
 ## The Process
-My submission notebook followed the data science process while trying to predict the outcome of specific possessions:
-  1. Load In Data
-  2. EDA Part I: Univariate Analysis and Cleaning
-  3. Train-Test Split
-  4. Frame Counts per Play
-  5. Target Percentages
-  6. Distance to the Basket
-  7. Filtering
-  8. Shot Distances Histogram
-  9. Shooting Densities Heatmap
-  10. The Null Model
-  11. EDA Part II: Multivariate Analysis and Advanced Feature Engineering
-  12. Binned Distance Shooting Percentages
-  13. Shooting Percentages vs Court Coordinates
-  14. Advanced Feature Engineering: Distances, Angles, and Player Relativity
-  15. Floor Spacing
-  16. Defensive Density
-  17. Player Distances and Speed Over Time
-  18. Missing Values
-  19. Modeling
+
+My submission notebook followed the data science process while trying to predict the outcome of specific possessions: 1. Load In Data 2. EDA Part I: Univariate Analysis and Cleaning 3. Train-Test Split 4. Frame Counts per Play 5. Target Percentages 6. Distance to the Basket 7. Filtering 8. Shot Distances Histogram 9. Shooting Densities Heatmap 10. The Null Model 11. EDA Part II: Multivariate Analysis and Advanced Feature Engineering 12. Binned Distance Shooting Percentages 13. Shooting Percentages vs Court Coordinates 14. Advanced Feature Engineering: Distances, Angles, and Player Relativity 15. Floor Spacing 16. Defensive Density 17. Player Distances and Speed Over Time 18. Missing Values 19. Modeling
 
 ## Outcome
-I ended up capturing a fourth place finish with the better of my 2 submissions achieving a **0.5287** ROC-AUC Score, and my best model overall achieving a 0.5381 ROC-AUC score.
-![ShotQuality Outcome](outcome.png)
 
+I ended up capturing a fourth place finish with the better of my 2 submissions achieving a **0.5287** ROC-AUC Score, and my best model overall achieving a 0.5381 ROC-AUC score. ![ShotQuality Outcome](assets/outcome.png)
