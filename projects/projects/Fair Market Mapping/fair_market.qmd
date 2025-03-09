@@ -7,7 +7,6 @@ categories: ["Python", "Web-Scraping", "Tableau", "Homelessness"]
 about:
   template: trestles
   image: cover.jpg
-
 ---
 
 **THIS PROJECT IS PRIVATIZED TO SECURE DATA REGARDING VULNERABLE HOMELESS INDIVIDUALS AND FAMILIES IN THE DETROIT AREA**
@@ -15,4 +14,3 @@ about:
 This project involved the scripting of WebScrapers to evaluate property and utility pricing of locations that qualified for Section 8 Housing in the Detroit area. With this information, Fair Market evaluation is conducted and these locations are mapped, showing individuals and Coordinated Entry professionals locations offering fair-market rates in order to house homeless individuals.
 
 If you would like to learn more, please view Community and Home Support's Presentation at the 2024 HMIS Data Summit [here](https://hmislearningcenter.org/2024-data-summit/).
-

@@ -3,6 +3,7 @@ title: "My Projects"
 listing:
   type: default
   contents: projects
+  fields: [image, date, title, description, categories, author]
   sort:
     - "date dec"
   categories: true
