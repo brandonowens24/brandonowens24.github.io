@@ -1,0 +1,41 @@
+---
+title: "Supreme Court Decision Predictor"
+description: "Model that looks to predict the outcome of major Supreme Court Decisions using identity factors and NLP processing."
+date: February 7, 2024
+author: ["Brandon Owens", "Hailey Naugle"]
+categories: ["Python", "NLP", "Law", "Modelling"]
+about:
+  template: trestles
+  image: "SCOTUS.jpg"
+  links: 
+    - icon: pencil
+      text: "Notebook"
+      href: https://github.com/brandonowens24/Supreme_Court_Decisions/blob/main/Notebook.ipynb
+    - icon: file-earmark-ppt-fill
+      text: "Presentation"
+      href: https://github.com/brandonowens24/Supreme_Court_Decisions/blob/main/Supreme_Court_Judgments.pdf
+    - icon: youtube
+      text: "YouTube"
+      href: https://www.youtube.com/watch?v=qdOOZli1tJo
+    - icon: github
+      text: "GitHub"
+      href: https://github.com/brandonowens24/Supreme_Court_Decisions
+
+---
+
+## Description
+For our MIS 5470: Practical Computing for Data Analytics Course.
+
+We looked to see if we could successfully predict the outcome of Supreme Court Case Rulings using factors and Natural Language processing of the facts statements given by the court.
+
+We performed data wrangling, manipulation, feature engineering, exploratory data analysis, data visualization, and predictive modelling to gain an understanding to generate predictions using a [Supreme Court Cases Dataset](https://www.kaggle.com/datasets/deepcontractor/supreme-court-judgment-prediction/data) in order to predict the outcome of major Supreme Court decisions (**first party winner**: the first party being the appellant). 
+
+## Results
+![Results](sc_results.png)
+
+The baseline model of assuming no lower court decision reversals is able to predict the first party winner with 64.0% accuracy.
+
+The NLP only Counts-BOW Random Forest outperformed all other tests (marginally) with an accuracy of **66.8%**, being closely followed by the 66.7% logisitic regression missing NLP features and the 66.7% accuracy with TFIDF BOW logistic regression. Several models were able to slightly **outperform** (up to 2.8%).
+
+Thus, it can be shown that modeling using Facts Statements of Supreme Court Cases provides insights towards voting of SCOTUS cases with improved metrics as opposed by the simple assumption of party-dominated voting.
+

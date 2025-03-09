@@ -1,0 +1,22 @@
+---
+title: "Brandon Owens"
+about: 
+  template: jolla
+  image: assets/headshot.jpg
+  links: 
+    - icon: envelope
+      text: Email
+      href: mailto:brandongerardowens@gmail.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/brandonowens24
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/brandon-owens-800b68203/
+---
+
+Hi! Welcome to my website. My name is Brandon Owens, and I am currently pursuing my graduate degree in Applied Statistics at Oakland University. I am honing my skills in data analysis, statistical modeling, and data-driven decision-making. My academic journey has allowed me to explore the intersection of quantitative analysis and real-world applications with particular articulation in Bayesian Inference, Natural Language Processing, and Machine Learning.
+
+Within industry, I have developed a deep passion for sports, finance, and operations, driven by my desire to utilize the power of data to solve complex problems and drive meaningful decisions. 
+
+In my free time, you can find me playing basketball and chess, watching movies and sports, running, reading, and spending time with loved ones. If you're interested in any of my projects or feeling like connecting, please reach out!

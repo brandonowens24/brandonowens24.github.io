@@ -1,0 +1,9 @@
+---
+title: "My Projects"
+listing:
+  type: default
+  contents: projects
+  sort:
+    - "date dec"
+  categories: true
+---

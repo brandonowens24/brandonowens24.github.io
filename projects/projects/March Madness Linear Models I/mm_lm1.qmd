@@ -1,0 +1,52 @@
+---
+title: "March Madness Linear Modelling"
+description: "A small project looking to take input variables from NCAAM teams and use them to predict the number of WINS a team will have during a March Madness Tournament."
+date: December 1, 2024
+author: "Brandon Owens"
+categories: ["NCAAM", "SAS", "Regression", "Sports", "Modelling"]
+about:
+  template: trestles
+  image: cover.jpg
+  links: 
+    - icon: newspaper
+      text: Paper
+      href: https://github.com/brandonowens24/March-Madness-Win-Regression/blob/main/Simple%20Linear%20Regression-March%20Madness.pdf
+    - icon: github
+      text: "GitHub"
+      href: https://github.com/brandonowens24/March-Madness-Win-Regression
+
+---
+
+## Introduction
+
+The NCAA Men’s March Madness Basketball Tournament is a notoriously difficult tournament to predict. In fact, the best Brackateers in history have never called every game correctly through the first three rounds. Why is it so difficult? Maybe it’s great coaching, a brotherhood formed by experienced teams, or perhaps there is something in the air during March – nobody is certain. In an attempt to maybe one day craft the perfect bracket, the aim of this assignment is to build a model that successfully can predict the number of tournament wins a team will acquire come March. 
+
+## The Data
+
+The dataset utilized within this project was taken from Nishaan Amin’s March Madness Data dataset on Kaggle. Of the numerous tables provided, only the Heat Check Tournament Index and KenPom Barttorvik csvs were taken. 
+The Heat Check Tournament Index dataset is composed of March Madness data after tournament seeding has been conducted, but before any games have been played. Relevant information includes POWER and PATH –  referencing a power rating of each team and a rating of the difficulty of their path to the championship, respectively. 
+
+Meanwhile, the KenPom Barttorvik dataset includes the following relevant information KADJ.O (adjusted offense rating), KADJ.D (adjusted defensive rating), BARTHAG (projected win percentage against average D1 team at a neutral site), WIN. (win percentage), FTR (rate of possessions resulting in free throws), TOV. (rate of possessions resulting in turnovers on offense), TOV.D (rate of possessions resulting in turnovers on defense), OREB. (rate of second missed shots resulting in offensive rebounds, DREB. (rate of missed shots resulting in defensive rebounds), X3PT. (three point field goal percentage), X3PT.D (three point field goal percentage against defense), AST. (rate of possessions resultant of an assist), EXP (rating of a team’s experience), and ELITE.SOS (rating of a team’s strength of schedule).
+
+These datasets were merged in R on the identifiers YEAR, TEAM.NO, TEAM, SEED, ROUND. After merging, all null values were omitted from the dataset and only the desired columns were taken. This resulted in a new dataset of 640 observations with 20 total variables (17 explanatory variables, 2 identifier variables, and 1 target variable). The target variable/observation of interest was WINS – which means the number of wins a team had in the tournament. For example, if a team lost their first game and was eliminated, they would have 0 WINS. At the same time, a team with 6 WINS equates to the national champion for that year with wins in the round of 64, 32, Sweet 16, Elite 8, Final 4, and the championship.
+
+## The Process
+
+After importing the data to SAS, the 640 observations were split with a sample rate of 95%. This left 32 observations to be excluded on the dataset – not for testing, but instead to use as an example of future prediction intervals. With these other 608 observations, a linear model was regressed where different metrics and plots were recorded, such as RSQUARE, ADJRSQ, AIC, SBC, PRESS, and residual plots. Each of the metrics performed poorly (0.3943, 0.3769, 75.0403, 154.423, 687.903, respectively) and the fit diagnostics demonstrated non-constant error variance and non-independence of errors for many of the predictor variables. Additionally, many of the explanatory variables appeared non-significant by their respective Fisher tests. Thus, the first focus was on multicollinearity. Variance Inflation Factors were calculated (and removed if larger than 10) and two of the metrics: KADJ_O, KADJ_D, were combined. The resulting variables were WIN_, FTR, TOV_, TOV_D, OREB_, DREB_, X3PT_, X3PT_D, AST_, EXP, PATH, ELITE_SOS,  and KADJ_COMB. 
+
+Next, to further improve this model it was beneficial to address heteroscedasticity and assume constant error variance by regressing the model on Weighted Least Squares. The weight equation was taken calculating the inverse of the residuals due to the fact that the original model had many outliers. After doing so, the diagnostic metrics had significantly improved (RSQUARE, ADJRSQ, AIC, SBC, PRESS equal to 0.73639, 0.73062, -100.374, -38.6314, and 503.535, respectively). Additionally, the diagnostic plots appeared to significantly improve upon the previous non-constancy of error variance. 
+The next step was to determine which variables were significantly interacting with one another and contributing to the model. Thus, the best models according to ADJRSQ, CP, and Forward Stepwise Regression were considered. Although all three metrics proposed different “best” models, the same first 10 variables were provided in the ADJRSQ top 3, the CP top 3, and showed significant F values in the Stepwise regression. Thus, the relevant predictor variables included: WIN_, FTR, TOV_D, DREB_, X3PT_D, AST_, EXP, PATH, ELITE_SOS, and KADJ_COMB. This proved to be the best model with exceptional fit diagnostics and a reasonable number of parameters. The final RSQUARE, ADJRSQ, MSE, and parameter estimates are shown:
+
+![Results](Best-Model-Plots3.png)
+
+![Model Plots](Best-Model-Plots1.png)
+
+![Model Plots](Best-Model-Plots2.png)
+
+Finally, the 32 observations not included on the dataset were brought back in using the calculated beta values, the standard error, and a t-distribution value of 95% to calculate the prediction intervals for these unseen cases.
+
+## Conclusions
+
+As referenced, the NCAAM March Madness Tournament is full of surprises and no easy simulation. While our refined model successfully takes the raw data and outputs criteria indicative of a good model (ADJRSQ, RSQUARE, AIC, SBC, PRESS, CP), it would still most likely take a miracle to successfully simulate upcoming tournament outcomes. From our 32 additional observations, the model tends to under project wins. This is most likely a symptom of the fact that the majority of teams do not win a single game and that “Cinderella” picks are hard to come by. Thus, the calculation of prediction intervals helps paint a better picture of the range of wins a team may accomplish. Further analysis should be conducted to possibly standardize input and target variables to calculate which factors are the most significant as well and oversample the teams with a larger number of tournament wins. 
+
+

@@ -1,0 +1,25 @@
+---
+title: "NBA Moneyline Predictor"
+description: "Scripts used to WebScrape NBA player, team, and officiating information that is uploaded daily to an AWS:RDS instance and used to predict the moneyline of daily NBA games."
+date: January 2, 2025
+author: "Brandon Owens"
+categories: ["NBA", "Python", "AWS", "Database", "Sports", "Modelling", "Web-Scraping", "Sports Betting"]
+about:
+  template: trestles
+  image: ml.jpg
+---
+
+**DUE TO THE COSTS OF INITIATING AWS CLOUDWATCH JOBS, THIS PROJECT HAS BEEN PRIVATIZED**
+
+# Description
+
+This project involves the collection of daily NBA data including:
+
+- [x] Officials officiating.
+- [x] Games being played that night.
+- [x] Statistics from games played the previous night.
+- [x] Updated player stats.
+- [x] Updated team stats.
+  
+This aggregation of data is implemented using an **AWS Lambda Function**. This data is collected nightly via **AWS Cloudwatch** where it is stored in an **AWS RDS SQL Instance**. It is then pulled to use evaluation to predict nightly moneylines for occurring NBA games.
+

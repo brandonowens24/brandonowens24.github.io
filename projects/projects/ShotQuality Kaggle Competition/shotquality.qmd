@@ -1,0 +1,68 @@
+---
+title: "ShotQuality 3-Point Kaggle Competition"
+description: "A submission to a ShotQuality Kaggle Competition that looks to quantify the scheme and ability components that lead to the lowest 3PT% on individual shots."
+date: October 31, 2024
+author: "Brandon Owens"
+categories: ["NCAAM", "Python", "Competition", "Sports", "Modelling"]
+about:
+  template: trestles
+  image: shotquality_banner.jpg
+  links: 
+    - icon: award
+      text: "Competition"
+      href: https://www.kaggle.com/competitions/quantifying-3-pt-def-in-ncaam-with-tracking-data/overview
+    - icon: pencil
+      text: "Notebook"
+      href: https://github.com/brandonowens24/ShotQuality-3pt-Kaggle-Competition/blob/main/shotquality-3pt-competition.ipynb
+    - icon: github
+      text: "GitHub"
+      href: https://github.com/brandonowens24/ShotQuality-3pt-Kaggle-Competition/tree/main
+
+---
+
+The following notebook consisted of my submission for [ShotQuality's Kaggle](https://www.kaggle.com/competitions/quantifying-3-pt-def-in-ncaam-with-tracking-data) and looked to compete within the following prompt:
+
+## Description
+
+ShotQuality is a cutting-edge basketball data company that leverages AI and computer vision to extract precise location data from video feeds for any shot. Our data is trusted by top NCAA teams and sportsbooks to gain a competitive edge. We are excited to offer you an exclusive glimpse into our NCAAM player tracking data, which is used to analyze player and team performance. ShotQuality is the first company to provide player tracking data in all of NCAAM.
+
+3PT defense has been notoriously difficult to predict on a game-by-game basis and is often plagued by significant noise from season to season, especially in NCAAM. While outliers like Houston have consistently ranked in the top 15 for defensive 3PT% over the past six seasons, the factors that contribute to effective 3PT defense remain largely elusive. Traditionally, 3PT defense has been attributed to a mix of luck, defensive scheme, and player ability. However, in the era of box score statistics, accurately measuring scheme and ability was impossible, leaving luck as the default explanation.
+
+We are challenging you to quantify the scheme and ability components that lead to the lowest 3PT% on individual shots. In this year's Kaggle competition, we invite data scientists, machine learning enthusiasts, and statisticians to explore the intricate in-game contexts that contribute to effective 3PT defense. We aim to understand the impact of defensive and offensive movements using tracking data, including x/y coordinates of all 10 players in the broadcast view, captured up to 4 seconds before the shot attempt and 2 seconds after (180 frames in total) to predict 3PT shots.
+
+Participants will be provided with a full month of tracking data to predict the outcome of individual 3PT shots. We encourage you to think creatively, embrace innovative methodologies, and join us in redefining the analysis of 3PT shots. May the most insightful model win!
+
+## The Data
+
+This competition uses two different types of datasets. Play-by-play data, often abbreviated "pbp", contains play-level details. This includes teams names and, for the training set, whether the shot is made. We also use location data, often abbreviated "locs", as the focus on this challenge. The location data includes the on-court location of each player, along with an indicator to show whether the player is the shooter, an offensive player, or a defensive player.
+
+Note that all shots in the train or test set are misses that are rebounded by the offensive or defensive team. A shot is from the coordinates where annotation_code == "s" in train_locs.csv and test_locs.csv.
+
+Coordinates for key locations on the court are (position | x,y)
+
+## The Process
+My submission notebook followed the data science process while trying to predict the outcome of specific possessions:
+  1. Load In Data
+  2. EDA Part I: Univariate Analysis and Cleaning
+  3. Train-Test Split
+  4. Frame Counts per Play
+  5. Target Percentages
+  6. Distance to the Basket
+  7. Filtering
+  8. Shot Distances Histogram
+  9. Shooting Densities Heatmap
+  10. The Null Model
+  11. EDA Part II: Multivariate Analysis and Advanced Feature Engineering
+  12. Binned Distance Shooting Percentages
+  13. Shooting Percentages vs Court Coordinates
+  14. Advanced Feature Engineering: Distances, Angles, and Player Relativity
+  15. Floor Spacing
+  16. Defensive Density
+  17. Player Distances and Speed Over Time
+  18. Missing Values
+  19. Modeling
+
+## Outcome
+I ended up capturing a fourth place finish with the better of my 2 submissions achieving a **0.5287** ROC-AUC Score, and my best model overall achieving a 0.5381 ROC-AUC score.
+![ShotQuality Outcome](outcome.png)
+
