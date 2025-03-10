@@ -17,6 +17,6 @@ about:
 
 Hi! Welcome to my website. My name is Brandon Owens, and I am currently pursuing my graduate degree in Applied Statistics at Oakland University. I am honing my skills in data analysis, statistical modeling, and data-driven decision-making. My academic journey has allowed me to explore the intersection of quantitative analysis and real-world applications with particular articulation in Bayesian Inference, Natural Language Processing, and Machine Learning.
 
-Within industry, I have developed a deep passion for sports, quantitative finance, and operations research. Driven by my desire to utilize the power of data and solve complex problems, I hope to make meaningful contributions to real world problems.
+Within industry, I have developed a deep passion for sports, quantitative finance, and operations research. Driven by my desire to utilize the power, I hope to make meaningful contributions to real world problems in these domains.
 
 In my free time, you can find me playing basketball and chess, watching movies and sports, running, reading, and spending time with loved ones. If you're interested in any of my projects or would like to connect, please reach out!
