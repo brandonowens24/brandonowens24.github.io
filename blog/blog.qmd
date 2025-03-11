@@ -6,8 +6,6 @@ title: "Follow Along with my Picks"
 
 Because I love predictive analysis and sports, I figured it would be fun to post my slip history following my own findings.
 
-\`\`\`{html}
-
 ::: {#viz1741490048565 .tableauPlaceholder style="position: relative"}
 <noscript><a href='#'> <img src="https://public.tableau.com/static/images/Sp/SportsBettingWebVersion/DashboardWeb/1_rss.png" alt="Dashboard Web " style="border: none"/> </a></noscript>
 
