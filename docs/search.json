@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "blog/blog.html",
+    "href": "blog/blog.html",
+    "title": "Follow Along with my Picks",
+    "section": "",
+    "text": "Here you can follow all of my bookie picks! - updated every 24 hours!\nBecause I love predictive analysis and sports, I figured it would be fun to post my slip history following my own findings.\n\n\nDisclaimer:\nThe picks provided on this page are for informational and entertainment purposes only. While I strive to offer insightful analysis, I make no guarantees regarding the outcome of any bets or picks shared here. Sports betting involves risk, and you should always wager responsibly. By following these picks, you acknowledge that you are doing so at your own risk. I am not liable for any financial losses or other consequences resulting from your betting decisions."
+  },
+  {
     "objectID": "projects/projects.html",
     "href": "projects/projects.html",
     "title": "My Projects",
@@ -89,20 +96,6 @@
     "title": "Section 8 Housing Fair Market Analyzer",
     "section": "",
     "text": "THIS PROJECT IS PRIVATIZED TO SECURE DATA REGARDING VULNERABLE HOMELESS INDIVIDUALS AND FAMILIES IN THE DETROIT AREA\nThis project involved the scripting of WebScrapers to evaluate property and utility pricing of locations that qualified for Section 8 Housing in the Detroit area. With this information, Fair Market evaluation is conducted and these locations are mapped, showing individuals and Coordinated Entry professionals locations offering fair-market rates in order to house homeless individuals.\nIf you would like to learn more, please view Community and Home Support’s Presentation at the 2024 HMIS Data Summit here."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Brandon Owens",
-    "section": "",
-    "text": "Hi! Welcome to my website. My name is Brandon Owens, and I am currently pursuing my graduate degree in Applied Statistics at Oakland University. I am honing my skills in data analysis, statistical modeling, and data-driven decision-making. My academic journey has allowed me to explore the intersection of quantitative analysis and real-world applications with particular articulation in Bayesian Inference, Natural Language Processing, and Machine Learning.\nWithin the industry, I have developed a deep passion for sports, quantitative finance, and operations research. Driven by my desire to utilize the power, I hope to make meaningful contributions to real world problems in these domains.\nIn my free time, you can find me playing basketball and chess, watching movies and sports, running, reading, and spending time with loved ones. If you’re interested in any of my projects, would like to connect, or have a proposal for a project you would like to see completed, please reach out!"
-  },
-  {
-    "objectID": "blog/blog.html",
-    "href": "blog/blog.html",
-    "title": "Follow Along with my Picks",
-    "section": "",
-    "text": "Here you can follow all of my bookie picks! -updated every 24 hours!\nBecause I love predictive analysis and sports, I figured it would be fun to post my slip history following my own findings.\n\n\n  \n\n\n            \n\n\n\nDisclaimer:\nThe picks provided on this page are for informational and entertainment purposes only. While I strive to offer insightful analysis, I make no guarantees regarding the outcome of any bets or picks shared here. Sports betting involves risk, and you should always wager responsibly. By following these picks, you acknowledge that you are doing so at your own risk. I am not liable for any financial losses or other consequences resulting from your betting decisions."
   },
   {
     "objectID": "education/education.html",
