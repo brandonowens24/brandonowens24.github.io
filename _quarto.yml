@@ -13,8 +13,6 @@ website:
         text: Projects
       - href: education/education.qmd
         text: Education
-      - href: blog/blog.qmd
-        text: Follow my Picks!
         
     right:
       - icon: linkedin
