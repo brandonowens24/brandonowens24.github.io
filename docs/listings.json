@@ -2,6 +2,7 @@
   {
     "listing": "/projects/projects.html",
     "items": [
+      "/projects/projects/Labor Market/handshake.html",
       "/projects/projects/Handshake Timeline Reporting/handshake.html",
       "/projects/projects/NBA Moneyline Predictor/nba_ml.html",
       "/projects/projects/March Madness Linear Models I/mm_lm1.html",

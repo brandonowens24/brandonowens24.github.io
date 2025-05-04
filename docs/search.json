@@ -4,7 +4,7 @@
     "href": "projects/projects.html",
     "title": "My Projects",
     "section": "",
-    "text": "Handshake Timeline Reporting\n\n\n\n\n\n\nOakland University\n\n\nPython\n\n\nOOP\n\n\nPowerBI\n\n\n\nA script that uses data from Handshake reports to create a Timeline of all student engagements from 2019-present. With this timeline, the user has the ability to generate several other reports.\n\n\n\n\n\nFeb 25, 2025\n\n\nBrandon Owens\n\n\n\n\n\n\n\n\n\n\n\n\nNBA Moneyline Predictor\n\n\n\n\n\n\nNBA\n\n\nPython\n\n\nAWS\n\n\nDatabase\n\n\nSports\n\n\nModelling\n\n\nWeb-Scraping\n\n\nSports Betting\n\n\n\nScripts used to WebScrape NBA player, team, and officiating information that is uploaded daily to an AWS:RDS instance and used to predict the moneyline of daily NBA games.\n\n\n\n\n\nJan 2, 2025\n\n\nBrandon Owens\n\n\n\n\n\n\n\n\n\n\n\n\nMarch Madness Linear Modelling\n\n\n\n\n\n\nNCAAM\n\n\nSAS\n\n\nRegression\n\n\nSports\n\n\nModelling\n\n\n\nA small project looking to take input variables from NCAAM teams and use them to predict the number of WINS a team will have during a March Madness Tournament.\n\n\n\n\n\nDec 1, 2024\n\n\nBrandon Owens\n\n\n\n\n\n\n\n\n\n\n\n\nShotQuality 3-Point Kaggle Competition\n\n\n\n\n\n\nNCAAM\n\n\nPython\n\n\nCompetition\n\n\nSports\n\n\nModelling\n\n\n\nA submission to a ShotQuality Kaggle Competition that looks to quantify the scheme and ability components that lead to the lowest 3PT% on individual shots.\n\n\n\n\n\nOct 31, 2024\n\n\nBrandon Owens\n\n\n\n\n\n\n\n\n\n\n\n\nSection 8 Housing Fair Market Analyzer\n\n\n\n\n\n\nPython\n\n\nWeb-Scraping\n\n\nTableau\n\n\nHomelessness\n\n\n\nA program that scrapes a list of properties that qualify for Section 8 Housing and evaluate whether or not they are charging Fair Market Rates in the State of Michigan before mapping them.\n\n\n\n\n\nJul 1, 2024\n\n\nBrandon Owens\n\n\n\n\n\n\n\n\n\n\n\n\nNFL Injuries Bayesian Analysis\n\n\n\n\n\n\nNFL\n\n\nBayesian\n\n\nR\n\n\nSports\n\n\nModelling\n\n\n\nA Bayesian Analysis that analyzes the impact of rule changes and age over time with relation to injury rates.\n\n\n\n\n\nApr 10, 2024\n\n\nBrandon Owens\n\n\n\n\n\n\n\n\n\n\n\n\nMovie Recommendation App\n\n\n\n\n\n\nPython\n\n\nFilm\n\n\nRecommender Systems\n\n\nNLP\n\n\n\nA model hosted on HuggingFace spaces that allows you to enter a movie or show you enjoy and receive 5 recommendations!\n\n\n\n\n\nMar 1, 2024\n\n\nBrandon Owens\n\n\n\n\n\n\n\n\n\n\n\n\nElectoral College Bayesian Inference 2016 Election\n\n\n\n\n\n\nBayesian\n\n\nR\n\n\nPolitics\n\n\nModelling\n\n\nStatistics\n\n\n\nUsing conjugate normalized models to analyze predictions for the 2016 Presidential Election via surveying and the Electoral College.\n\n\n\n\n\nFeb 20, 2024\n\n\nBrandon Owens\n\n\n\n\n\n\n\n\n\n\n\n\nSupreme Court Decision Predictor\n\n\n\n\n\n\nPython\n\n\nNLP\n\n\nLaw\n\n\nModelling\n\n\n\nModel that looks to predict the outcome of major Supreme Court Decisions using identity factors and NLP processing.\n\n\n\n\n\nFeb 7, 2024\n\n\nBrandon Owens, Hailey Naugle\n\n\n\n\n\n\nNo matching items"
+    "text": "Oakland University: Labor Market\n\n\n\n\n\n\nOakland University\n\n\nPython\n\n\nOOP\n\n\nPowerBI\n\n\n\nA script that uses data from internal sourcing at Oakland University, BLS, ONET, and Lightcast to show and develop reports for career paths that students can follow associated with OU Majors.\n\n\n\n\n\nMay 30, 2025\n\n\nBrandon Owens\n\n\n\n\n\n\n\n\n\n\n\n\nHandshake Timeline Reporting\n\n\n\n\n\n\nOakland University\n\n\nPython\n\n\nOOP\n\n\nPowerBI\n\n\n\nA script that uses data from Handshake reports to create a Timeline of all student engagements from 2019-present. With this timeline, the user has the ability to generate several other reports.\n\n\n\n\n\nFeb 25, 2025\n\n\nBrandon Owens\n\n\n\n\n\n\n\n\n\n\n\n\nNBA Moneyline Predictor\n\n\n\n\n\n\nNBA\n\n\nPython\n\n\nAWS\n\n\nDatabase\n\n\nSports\n\n\nModelling\n\n\nWeb-Scraping\n\n\nSports Betting\n\n\n\nScripts used to WebScrape NBA player, team, and officiating information that is uploaded daily to an AWS:RDS instance and used to predict the moneyline of daily NBA games.\n\n\n\n\n\nJan 2, 2025\n\n\nBrandon Owens\n\n\n\n\n\n\n\n\n\n\n\n\nMarch Madness Linear Modelling\n\n\n\n\n\n\nNCAAM\n\n\nSAS\n\n\nRegression\n\n\nSports\n\n\nModelling\n\n\n\nA small project looking to take input variables from NCAAM teams and use them to predict the number of WINS a team will have during a March Madness Tournament.\n\n\n\n\n\nDec 1, 2024\n\n\nBrandon Owens\n\n\n\n\n\n\n\n\n\n\n\n\nShotQuality 3-Point Kaggle Competition\n\n\n\n\n\n\nNCAAM\n\n\nPython\n\n\nCompetition\n\n\nSports\n\n\nModelling\n\n\n\nA submission to a ShotQuality Kaggle Competition that looks to quantify the scheme and ability components that lead to the lowest 3PT% on individual shots.\n\n\n\n\n\nOct 31, 2024\n\n\nBrandon Owens\n\n\n\n\n\n\n\n\n\n\n\n\nSection 8 Housing Fair Market Analyzer\n\n\n\n\n\n\nPython\n\n\nWeb-Scraping\n\n\nTableau\n\n\nHomelessness\n\n\n\nA program that scrapes a list of properties that qualify for Section 8 Housing and evaluate whether or not they are charging Fair Market Rates in the State of Michigan before mapping them.\n\n\n\n\n\nJul 1, 2024\n\n\nBrandon Owens\n\n\n\n\n\n\n\n\n\n\n\n\nNFL Injuries Bayesian Analysis\n\n\n\n\n\n\nNFL\n\n\nBayesian\n\n\nR\n\n\nSports\n\n\nModelling\n\n\n\nA Bayesian Analysis that analyzes the impact of rule changes and age over time with relation to injury rates.\n\n\n\n\n\nApr 10, 2024\n\n\nBrandon Owens\n\n\n\n\n\n\n\n\n\n\n\n\nMovie Recommendation App\n\n\n\n\n\n\nPython\n\n\nFilm\n\n\nRecommender Systems\n\n\nNLP\n\n\n\nA model hosted on HuggingFace spaces that allows you to enter a movie or show you enjoy and receive 5 recommendations!\n\n\n\n\n\nMar 1, 2024\n\n\nBrandon Owens\n\n\n\n\n\n\n\n\n\n\n\n\nElectoral College Bayesian Inference 2016 Election\n\n\n\n\n\n\nBayesian\n\n\nR\n\n\nPolitics\n\n\nModelling\n\n\nStatistics\n\n\n\nUsing conjugate normalized models to analyze predictions for the 2016 Presidential Election via surveying and the Electoral College.\n\n\n\n\n\nFeb 20, 2024\n\n\nBrandon Owens\n\n\n\n\n\n\n\n\n\n\n\n\nSupreme Court Decision Predictor\n\n\n\n\n\n\nPython\n\n\nNLP\n\n\nLaw\n\n\nModelling\n\n\n\nModel that looks to predict the outcome of major Supreme Court Decisions using identity factors and NLP processing.\n\n\n\n\n\nFeb 7, 2024\n\n\nBrandon Owens, Hailey Naugle\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/projects/ShotQuality Kaggle Competition/shotquality.html",
@@ -84,46 +84,32 @@
     "text": "Conclusions\nAs referenced, the NCAAM March Madness Tournament is full of surprises and no easy simulation. While our refined model successfully takes the raw data and outputs criteria indicative of a good model (ADJRSQ, RSQUARE, AIC, SBC, PRESS, CP), it would still most likely take a miracle to successfully simulate upcoming tournament outcomes. From our 32 additional observations, the model tends to under project wins. This is most likely a symptom of the fact that the majority of teams do not win a single game and that “Cinderella” picks are hard to come by. Thus, the calculation of prediction intervals helps paint a better picture of the range of wins a team may accomplish. Further analysis should be conducted to possibly standardize input and target variables to calculate which factors are the most significant as well and oversample the teams with a larger number of tournament wins."
   },
   {
-    "objectID": "projects/projects/Fair Market Mapping/fair_market.html",
-    "href": "projects/projects/Fair Market Mapping/fair_market.html",
-    "title": "Section 8 Housing Fair Market Analyzer",
+    "objectID": "projects/projects/Handshake Timeline Reporting/handshake.html",
+    "href": "projects/projects/Handshake Timeline Reporting/handshake.html",
+    "title": "Handshake Timeline Reporting",
     "section": "",
-    "text": "THIS PROJECT IS PRIVATIZED TO SECURE DATA REGARDING VULNERABLE HOMELESS INDIVIDUALS AND FAMILIES IN THE DETROIT AREA\nThis project involved the scripting of WebScrapers to evaluate property and utility pricing of locations that qualified for Section 8 Housing in the Detroit area. With this information, Fair Market evaluation is conducted and these locations are mapped, showing individuals and Coordinated Entry professionals locations offering fair-market rates in order to house homeless individuals.\nIf you would like to learn more, please view Community and Home Support’s Presentation at the 2024 HMIS Data Summit here."
+    "text": "A script that uses data from Handshake reports to create a Timeline of all student engagements from 2019-present. With this timeline, the user has the ability to generate several other reports.\n\n[!NOTE]\nThis script only generates csv files with the data of each report contained. If you need these reports in a better format (Google Sheets), that will have to be done separately.\n\n\n[!IMPORTANT]\nFor the script to function, the configuration must be set properly.\n\nSee Setup for the necessary setup for these scripts to run automatically."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Brandon Owens",
+    "objectID": "projects/projects/Handshake Timeline Reporting/handshake.html#introduction",
+    "href": "projects/projects/Handshake Timeline Reporting/handshake.html#introduction",
+    "title": "Handshake Timeline Reporting",
     "section": "",
-    "text": "Hi! Welcome to my website. My name is Brandon Owens, and I am currently pursuing my graduate degree in Applied Statistics at Oakland University. I am honing my skills in data analysis, statistical modeling, and data-driven decision-making. My academic journey has allowed me to explore the intersection of quantitative analysis and real-world applications with particular articulation in Bayesian Inference, Natural Language Processing, and Machine Learning.\nWithin the industry, I have developed a deep passion for sports, quantitative finance, and operations research. Driven by my desire to utilize the power, I hope to make meaningful contributions to real world problems in these domains.\nIn my free time, you can find me playing basketball and chess, watching movies and sports, running, reading, and spending time with loved ones. If you’re interested in any of my projects, would like to connect, or have a proposal for a project you would like to see completed, please reach out!"
+    "text": "A script that uses data from Handshake reports to create a Timeline of all student engagements from 2019-present. With this timeline, the user has the ability to generate several other reports.\n\n[!NOTE]\nThis script only generates csv files with the data of each report contained. If you need these reports in a better format (Google Sheets), that will have to be done separately.\n\n\n[!IMPORTANT]\nFor the script to function, the configuration must be set properly.\n\nSee Setup for the necessary setup for these scripts to run automatically."
   },
   {
-    "objectID": "blog/blog.html",
-    "href": "blog/blog.html",
-    "title": "Follow Along with my Picks",
-    "section": "",
-    "text": "Here you can follow all of my bookie picks! - updated every 24 hours!\nBecause I love predictive analysis and sports, I figured it would be fun to post my slip history following my own findings.\n\n\nDisclaimer:\nThe picks provided on this page are for informational and entertainment purposes only. While I strive to offer insightful analysis, I make no guarantees regarding the outcome of any bets or picks shared here. Sports betting involves risk, and you should always wager responsibly. By following these picks, you acknowledge that you are doing so at your own risk. I am not liable for any financial losses or other consequences resulting from your betting decisions."
+    "objectID": "projects/projects/Handshake Timeline Reporting/handshake.html#features",
+    "href": "projects/projects/Handshake Timeline Reporting/handshake.html#features",
+    "title": "Handshake Timeline Reporting",
+    "section": "Features",
+    "text": "Features\nThis script can currently create a timeline and 3 different types of reports based on a user-defined config file.\n\nReport timeline of all student interactions including (Applications, Appointments, Events, Career Fairs, and Logins) from 2019-Present.\nReport student engagements following CLDC appointments.\nReport student engagements following COM1100 presentations.\nReport student engagements vs. their FDS outcomes.\n\n\nGenerated Report Types\nAll producable reports are delivered in three types of formats:\n\nTimeline: Creates a timeline of student identifiers with their engagement types and dates.\n\n\n\nStudent_ID\nDescriptive Information…\nEvent_Type\nDate\n\n\n\n\n000001\n…\nLogins\n20240101\n\n\n000001\n…\nCareer_Fairs\n20240103\n\n\n000002\n…\nAppointments\n20250102\n\n\n\n\n\nAggregate: Balances student identifier and descriptive information with timeline aggregate counts.\n\n\n\nStudent_ID\nDescriptive Information…\nTotal {Engagement Types}\n\n\n\n\n000001\n…\n1\n\n\n000002\n…\n2\n\n\n000003\n…\n1\n\n\n\n\n\n\nMelted: Takes the aggregated report and melts it for use in different visualization softwares.\n\n\n\n\n\n\n\n\n\n\nStudent_ID\nDescriptive Information…\nEvent_Type\nCount\nYear\n\n\n\n\n000001\n…\nLogins\n10\nFreshman\n\n\n000001\n…\nLogins\n12\nSophomore\n\n\n000001\n…\nLogins\n15\nJunior\n\n\n\n\n\n\n\nReport Options\n\nTimeline\nA timeline following the timeline format in Report Types of all student engagements in the following categories taken from scheduled Handshake Reports: * Applications * Appointments * Career_Fairs * Events * Logins\n\n\nCLDC\nProduces two reports that summarize student engagement following a CLDC appointment. The two reports are in the following Report Types formats: * Aggregate * Melt\n\n\nCOM1100\nProduces four reports that summarize student engagement following 1+ COM1100 presentations and no COM1100 presentations. Each of the conditions have 2 reports following Report Types formats: * Aggregate * Melt\n\n\nFDS\nProduces two reports that summarize past student engagement for students that have filled out their First Destination Surverys. The two reports are in the following Report Types formats: * Aggregate * Melt"
   },
   {
-    "objectID": "education/education.html",
-    "href": "education/education.html",
-    "title": "Education",
-    "section": "",
-    "text": "GPA: 4.0\nPosition Held: Graduate Research Assistant (Data Scientist for the Career and Life Design Center)\nRelevant Coursework:\n\nPractical Computing for Data Analysis, Bayesian Data Analysis, Natural Language Processing, Applied Linear Models, Mathematical Statistics, Probability and Decision Theory, Multivariate Calculus, Linear Algebra\n\nGroups:\n\nOakland University Exercise Science Club\nOakland University Mathematical Society\n\n\n\n\n\n\n\nGPA: 4.0\nAwards/Honors:\n\nPresidential Platinum Scholar (2019-2022)\nPresident’s List (2019-2022)\n\nRelevant Coursework:\n\nIntroduction to Probability Theory, Human Physiology, Functional Anatomy, Gross Anatomy, Human Pathology, Clinical Medicine, Motor Control, Biomechanics, Microeconomics, Macroeconomics\n\nGroups:\n\nOakland University Exercise Science Club"
-  },
-  {
-    "objectID": "education/education.html#schooling",
-    "href": "education/education.html#schooling",
-    "title": "Education",
-    "section": "",
-    "text": "GPA: 4.0\nPosition Held: Graduate Research Assistant (Data Scientist for the Career and Life Design Center)\nRelevant Coursework:\n\nPractical Computing for Data Analysis, Bayesian Data Analysis, Natural Language Processing, Applied Linear Models, Mathematical Statistics, Probability and Decision Theory, Multivariate Calculus, Linear Algebra\n\nGroups:\n\nOakland University Exercise Science Club\nOakland University Mathematical Society\n\n\n\n\n\n\n\nGPA: 4.0\nAwards/Honors:\n\nPresidential Platinum Scholar (2019-2022)\nPresident’s List (2019-2022)\n\nRelevant Coursework:\n\nIntroduction to Probability Theory, Human Physiology, Functional Anatomy, Gross Anatomy, Human Pathology, Clinical Medicine, Motor Control, Biomechanics, Microeconomics, Macroeconomics\n\nGroups:\n\nOakland University Exercise Science Club"
-  },
-  {
-    "objectID": "education/education.html#certifications",
-    "href": "education/education.html#certifications",
-    "title": "Education",
-    "section": "Certifications",
-    "text": "Certifications\n\n\n\nMachine Learning Coursera Certification\n\n\n\nObtained: January 2025\n\n\n\n\nTableau Data Analyst Certification\n\n\n\nObtained: August 2024\n\n\n\n\nHarvard CS50 Certification\n\n\n\nObtained: September 2023\n\n\n\n\nNSCA Certified Strength and Conditioning Specialist (CSCS)\n\n\n\nObtained: December 2022"
+    "objectID": "projects/projects/Handshake Timeline Reporting/handshake.html#what-happens-to-the-data",
+    "href": "projects/projects/Handshake Timeline Reporting/handshake.html#what-happens-to-the-data",
+    "title": "Handshake Timeline Reporting",
+    "section": "What Happens to the Data?",
+    "text": "What Happens to the Data?\nAfter these reports are created, they are streamlined into PowerBI Dashboards that are effectively used by Oakland University’s Career and Life Design Center."
   },
   {
     "objectID": "projects/projects/Electoral College Bayesian Inference/electoral.html",
@@ -161,30 +147,100 @@
     "text": "RESULTS/DISCUSSION\nFrom the 10,000 posterior draws for each state for each candidate, the total accuracy of the voting outcome on a sample by sample basis turned out to be 86.5% – which when aggregated into singular state votes lowered just slightly to 86.2% and resulted in the following electoral college voting simulation:\n\n\n\nElection Simulation Results\n\n\nThe predicted model struggled significantly in the “Great Lakes”/”Mideast” region which coincidentally lies in many swing states from this election: meaning that these states were battlegrounds that resulted in a difficult and polarized consensus on how constituents would vote. Some swing states like Colorado, Florida, Minnesota, New Hampshire, and Virginia were predicted correctly; however, others like Michigan, Ohio, Iowa, Pennsylvania, and North Carolina were not. Thus, while the model had a high accuracy rate of 86.2% it ultimately struggled to predict swing states in the Midwest United States. Future analyses would be wise to make several changes with this information. First, as mentioned, obtaining different prior distributions due to the volatility of swing states may have been useful. Additionally, accounting for all major candidates (Hillary Clinton, Donald Trump, Gary Johnson, and Evan McMullin) was ignored and while the two major parties dominated, according to FiveThreeEight, Gary Johnson was predicted to command about 5.0% of the popular vote. Normalizing candidates may have harmed this distribution as it is not known how pollees would vote if they had to choose for a candidate other than Johnson. Lastly, utilizing poll data from FiveThreeEight may have also been misinformed. While the organization is well known for their election forecasts, they also incorrectly predicted the outcome of the election.\nPosterior distributions for each state for both candidates are shown in the appendix. Hillary Clinton’s distribution is blue, Donald Trump’s distribution is red. For personal observation or reproduction, all code for analysis has been stored inside of brandonowens24’s GitHub repository labeled: “Simple Bayesian Inference on Electoral College Voting”."
   },
   {
-    "objectID": "projects/projects/Handshake Timeline Reporting/handshake.html",
-    "href": "projects/projects/Handshake Timeline Reporting/handshake.html",
-    "title": "Handshake Timeline Reporting",
+    "objectID": "experience/experience.html",
+    "href": "experience/experience.html",
+    "title": "Professional Experience",
     "section": "",
-    "text": "A script that uses data from Handshake reports to create a Timeline of all student engagements from 2019-present. With this timeline, the user has the ability to generate several other reports.\n\n[!NOTE]\nThis script only generates csv files with the data of each report contained. If you need these reports in a better format (Google Sheets), that will have to be done separately.\n\n\n[!IMPORTANT]\nFor the script to function, the configuration must be set properly.\n\nSee Setup for the necessary setup for these scripts to run automatically."
+    "text": "Assist in the design and execution of rigorous statistical analyses in support of Basketball Operations and Front Office decision making.\nDesign, build, and maintain data pipelines for machine learning inference for use by staff in game and decision preparation.\nUtilize statistical analysis and data mining techniques while keeping up with the latest developments and advances in sports analytics."
   },
   {
-    "objectID": "projects/projects/Handshake Timeline Reporting/handshake.html#introduction",
-    "href": "projects/projects/Handshake Timeline Reporting/handshake.html#introduction",
-    "title": "Handshake Timeline Reporting",
+    "objectID": "experience/experience.html#phoenix-suns",
+    "href": "experience/experience.html#phoenix-suns",
+    "title": "Professional Experience",
     "section": "",
-    "text": "A script that uses data from Handshake reports to create a Timeline of all student engagements from 2019-present. With this timeline, the user has the ability to generate several other reports.\n\n[!NOTE]\nThis script only generates csv files with the data of each report contained. If you need these reports in a better format (Google Sheets), that will have to be done separately.\n\n\n[!IMPORTANT]\nFor the script to function, the configuration must be set properly.\n\nSee Setup for the necessary setup for these scripts to run automatically."
+    "text": "Assist in the design and execution of rigorous statistical analyses in support of Basketball Operations and Front Office decision making.\nDesign, build, and maintain data pipelines for machine learning inference for use by staff in game and decision preparation.\nUtilize statistical analysis and data mining techniques while keeping up with the latest developments and advances in sports analytics."
   },
   {
-    "objectID": "projects/projects/Handshake Timeline Reporting/handshake.html#features",
-    "href": "projects/projects/Handshake Timeline Reporting/handshake.html#features",
-    "title": "Handshake Timeline Reporting",
-    "section": "Features",
-    "text": "Features\nThis script can currently create a timeline and 3 different types of reports based on a user-defined config file.\n\nReport timeline of all student interactions including (Applications, Appointments, Events, Career Fairs, and Logins) from 2019-Present.\nReport student engagements following CLDC appointments.\nReport student engagements following COM1100 presentations.\nReport student engagements vs. their FDS outcomes.\n\n\nGenerated Report Types\nAll producable reports are delivered in three types of formats:\n\nTimeline: Creates a timeline of student identifiers with their engagement types and dates.\n\n\n\nStudent_ID\nDescriptive Information…\nEvent_Type\nDate\n\n\n\n\n000001\n…\nLogins\n20240101\n\n\n000001\n…\nCareer_Fairs\n20240103\n\n\n000002\n…\nAppointments\n20250102\n\n\n\n\n\nAggregate: Balances student identifier and descriptive information with timeline aggregate counts.\n\n\n\nStudent_ID\nDescriptive Information…\nTotal {Engagement Types}\n\n\n\n\n000001\n…\n1\n\n\n000002\n…\n2\n\n\n000003\n…\n1\n\n\n\n\n\n\nMelted: Takes the aggregated report and melts it for use in different visualization softwares.\n\n\n\n\n\n\n\n\n\n\nStudent_ID\nDescriptive Information…\nEvent_Type\nCount\nYear\n\n\n\n\n000001\n…\nLogins\n10\nFreshman\n\n\n000001\n…\nLogins\n12\nSophomore\n\n\n000001\n…\nLogins\n15\nJunior\n\n\n\n\n\n\n\nReport Options\n\nTimeline\nA timeline following the timeline format in Report Types of all student engagements in the following categories taken from scheduled Handshake Reports: * Applications * Appointments * Career_Fairs * Events * Logins\n\n\nCLDC\nProduces two reports that summarize student engagement following a CLDC appointment. The two reports are in the following Report Types formats: * Aggregate * Melt\n\n\nCOM1100\nProduces four reports that summarize student engagement following 1+ COM1100 presentations and no COM1100 presentations. Each of the conditions have 2 reports following Report Types formats: * Aggregate * Melt\n\n\nFDS\nProduces two reports that summarize past student engagement for students that have filled out their First Destination Surverys. The two reports are in the following Report Types formats: * Aggregate * Melt"
+    "objectID": "experience/experience.html#oakland-university",
+    "href": "experience/experience.html#oakland-university",
+    "title": "Professional Experience",
+    "section": "Oakland University",
+    "text": "Oakland University\n\n\n\nData Science Graduate Research Assistant\n\n\n\nEngineered machine learning pipelines for predictive analytics of career success with 96% sensitivity, guiding funding.\nDesigned statistical models and quantitative analyses to support student engagement and data-driven decision-making.\nDeveloped scalable data collection and web-scraping of over 1 million student records to optimize department planning.\nCollaborated with data science team, automating PowerBI workflows for executive reporting on major distribution."
   },
   {
-    "objectID": "projects/projects/Handshake Timeline Reporting/handshake.html#what-happens-to-the-data",
-    "href": "projects/projects/Handshake Timeline Reporting/handshake.html#what-happens-to-the-data",
-    "title": "Handshake Timeline Reporting",
+    "objectID": "experience/experience.html#community-and-home-suports",
+    "href": "experience/experience.html#community-and-home-suports",
+    "title": "Professional Experience",
+    "section": "Community and Home Suports",
+    "text": "Community and Home Suports\n\n\n\nData Analyst Intern\n\n\n\nAutomated reporting workflows in Python and Tableau to streamlien Fair Market Rate analysis for Section 8 housing.\nDeveloped machine learning algorithms to evaluate new homeless shelters, chronic homelessness, and emergency care.\nPresented actionable data insights to a non-technical audience (300+ employees) via the HMIS Data Summit."
+  },
+  {
+    "objectID": "experience/experience.html#sports-info-solutions",
+    "href": "experience/experience.html#sports-info-solutions",
+    "title": "Professional Experience",
+    "section": "Sports Info Solutions",
+    "text": "Sports Info Solutions\n\n\n\nCollege Basketball Data Scout\n\n\n\nDeveloped analytics-based scouting reports for 20+ player evaluations, contributing directly to client strategies.\nColalborated with scouts to collect fast-paced, in-game data for sport-betting platforms using SIS proprietary software.\nAnalyzed player performance trends, delivering actionable insights for scouting optimization."
+  },
+  {
+    "objectID": "experience/experience.html#linkedfit-hq",
+    "href": "experience/experience.html#linkedfit-hq",
+    "title": "Professional Experience",
+    "section": "LinkedFit HQ",
+    "text": "LinkedFit HQ\n\n\n\nApplication Manager / Strength and Conditioning Coach\n\n\n\nOptimized business application system, driving a 500% increase in clientele and an 800% boost in media output.\nConducted data-driven performance analyses using research-based training sessions for 50+ elite athletes.\nEnhanced system communication, streamlining interdisciplinary collaboration for personalized user experiences."
+  },
+  {
+    "objectID": "blog/blog.html",
+    "href": "blog/blog.html",
+    "title": "Follow Along with my Picks",
+    "section": "",
+    "text": "Here you can follow all of my bookie picks! - updated every 24 hours!\nBecause I love predictive analysis and sports, I figured it would be fun to post my slip history following my own findings.\n\n\nDisclaimer:\nThe picks provided on this page are for informational and entertainment purposes only. While I strive to offer insightful analysis, I make no guarantees regarding the outcome of any bets or picks shared here. Sports betting involves risk, and you should always wager responsibly. By following these picks, you acknowledge that you are doing so at your own risk. I am not liable for any financial losses or other consequences resulting from your betting decisions."
+  },
+  {
+    "objectID": "education/education.html",
+    "href": "education/education.html",
+    "title": "Education",
+    "section": "",
+    "text": "GPA: 4.0\nPosition Held: Graduate Research Assistant (Data Scientist for the Career and Life Design Center)\nRelevant Coursework:\n\nPractical Computing for Data Analysis, Bayesian Data Analysis, Natural Language Processing, Applied Linear Models, Mathematical Statistics, Probability and Decision Theory, Multivariate Calculus, Linear Algebra\n\nGroups:\n\nOakland University Exercise Science Club\nOakland University Mathematical Society\n\n\n\n\n\n\n\nGPA: 4.0\nAwards/Honors:\n\nPresidential Platinum Scholar (2019-2022)\nPresident’s List (2019-2022)\n\nRelevant Coursework:\n\nIntroduction to Probability Theory, Human Physiology, Functional Anatomy, Gross Anatomy, Human Pathology, Clinical Medicine, Motor Control, Biomechanics, Microeconomics, Macroeconomics\n\nGroups:\n\nOakland University Exercise Science Club"
+  },
+  {
+    "objectID": "education/education.html#schooling",
+    "href": "education/education.html#schooling",
+    "title": "Education",
+    "section": "",
+    "text": "GPA: 4.0\nPosition Held: Graduate Research Assistant (Data Scientist for the Career and Life Design Center)\nRelevant Coursework:\n\nPractical Computing for Data Analysis, Bayesian Data Analysis, Natural Language Processing, Applied Linear Models, Mathematical Statistics, Probability and Decision Theory, Multivariate Calculus, Linear Algebra\n\nGroups:\n\nOakland University Exercise Science Club\nOakland University Mathematical Society\n\n\n\n\n\n\n\nGPA: 4.0\nAwards/Honors:\n\nPresidential Platinum Scholar (2019-2022)\nPresident’s List (2019-2022)\n\nRelevant Coursework:\n\nIntroduction to Probability Theory, Human Physiology, Functional Anatomy, Gross Anatomy, Human Pathology, Clinical Medicine, Motor Control, Biomechanics, Microeconomics, Macroeconomics\n\nGroups:\n\nOakland University Exercise Science Club"
+  },
+  {
+    "objectID": "education/education.html#certifications",
+    "href": "education/education.html#certifications",
+    "title": "Education",
+    "section": "Certifications",
+    "text": "Certifications\n\n\n\nMachine Learning Coursera Certification\n\n\n\nObtained: January 2025\n\n\n\n\nTableau Data Analyst Certification\n\n\n\nObtained: August 2024\n\n\n\n\nHarvard CS50 Certification\n\n\n\nObtained: September 2023\n\n\n\n\nNSCA Certified Strength and Conditioning Specialist (CSCS)\n\n\n\nObtained: December 2022"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Brandon Owens",
+    "section": "",
+    "text": "Hi! Welcome to my website. My name is Brandon Owens, and I am currently pursuing my graduate degree in Applied Statistics at Oakland University. I am honing my skills in data analysis, statistical modeling, and data-driven decision-making. My academic journey has allowed me to explore the intersection of quantitative analysis and real-world applications with particular articulation in Bayesian Inference, Natural Language Processing, and Machine Learning.\nWithin the industry, I have developed a deep passion for sports, quantitative finance, and operations research. Driven by my desire to utilize the power, I hope to make meaningful contributions to real world problems in these domains.\nIn my free time, you can find me playing basketball and chess, watching movies and sports, running, reading, and spending time with loved ones. If you’re interested in any of my projects, would like to connect, or have a proposal for a project you would like to see completed, please reach out!"
+  },
+  {
+    "objectID": "projects/projects/Fair Market Mapping/fair_market.html",
+    "href": "projects/projects/Fair Market Mapping/fair_market.html",
+    "title": "Section 8 Housing Fair Market Analyzer",
+    "section": "",
+    "text": "THIS PROJECT IS PRIVATIZED TO SECURE DATA REGARDING VULNERABLE HOMELESS INDIVIDUALS AND FAMILIES IN THE DETROIT AREA\nThis project involved the scripting of WebScrapers to evaluate property and utility pricing of locations that qualified for Section 8 Housing in the Detroit area. With this information, Fair Market evaluation is conducted and these locations are mapped, showing individuals and Coordinated Entry professionals locations offering fair-market rates in order to house homeless individuals.\nIf you would like to learn more, please view Community and Home Support’s Presentation at the 2024 HMIS Data Summit here."
+  },
+  {
+    "objectID": "projects/projects/Labor Market/handshake.html",
+    "href": "projects/projects/Labor Market/handshake.html",
+    "title": "Oakland University: Labor Market",
+    "section": "",
+    "text": "This collection of scripts takes inputs from scraped Hot 50 MI jobs information, Lightcast Occupation Reports, CIP to SOC conversions, and University majors and delivers tabular data breaking down all of the professions associated with university degrees, statistics of demographics, information of the positions, hiring data for the state of Michigan, and growth projections."
+  },
+  {
+    "objectID": "projects/projects/Labor Market/handshake.html#what-happens-to-the-data",
+    "href": "projects/projects/Labor Market/handshake.html#what-happens-to-the-data",
+    "title": "Oakland University: Labor Market",
     "section": "What Happens to the Data?",
     "text": "What Happens to the Data?\nAfter these reports are created, they are streamlined into PowerBI Dashboards that are effectively used by Oakland University’s Career and Life Design Center."
   },
