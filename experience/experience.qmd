@@ -1,0 +1,67 @@
+---
+title: "Professional Experience"
+---
+
+## Phoenix Suns
+
+::: {style="display: flex; align-items: center;"}
+<img src="phx.png" alt="PHX SUNS" style="width: 100px; margin-right: 15px;"/>
+
+<h2>Data Science / Machine Learning Intern</h2>
+:::
+
+-   Assist in the design and execution of rigorous statistical analyses in support of Basketball Operations and Front Office decision making.
+-   Design, build, and maintain data pipelines for machine learning inference for use by staff in game and decision preparation.
+-   Utilize statistical analysis and data mining techniques while keeping up with the latest developments and advances in sports analytics.
+
+
+## Oakland University
+
+::: {style="display: flex; align-items: center;"}
+<img src="ou.png" alt="Oakland University" style="width: 100px; margin-right: 15px;"/>
+
+<h2>Data Science Graduate Research Assistant</h2>
+:::
+
+-   Engineered machine learning pipelines for predictive analytics of career success with 96% sensitivity, guiding funding.
+-   Designed statistical models and quantitative analyses to support student engagement and data-driven decision-making.
+-   Developed scalable data collection and web-scraping of over 1 million student records to optimize department planning.
+-   Collaborated with data science team, automating PowerBI workflows for executive reporting on major distribution.
+
+## Community and Home Suports
+
+::: {style="display: flex; align-items: center;"}
+<img src="chs.png" alt="CHS" style="width: 100px; margin-right: 15px;"/>
+
+<h3>Data Analyst Intern</h3>
+:::
+
+-   Automated reporting workflows in Python and Tableau to streamlien Fair Market Rate analysis for Section 8 housing.
+-   Developed machine learning algorithms to evaluate new homeless shelters, chronic homelessness, and emergency care.
+-   Presented actionable data insights to a non-technical audience (300+ employees) via the HMIS Data Summit.
+
+## Sports Info Solutions
+
+::: {style="display: flex; align-items: center;"}
+<img src="sis.jpg" alt="SIS" style="width: 100px; margin-right: 15px;"/>
+
+<h3>College Basketball Data Scout</h3>
+:::
+
+-   Developed analytics-based scouting reports for 20+ player evaluations, contributing directly to client strategies.
+-   Colalborated with scouts to collect fast-paced, in-game data for sport-betting platforms using SIS proprietary software.
+-   Analyzed player performance trends, delivering actionable insights for scouting optimization.
+
+## LinkedFit HQ
+
+::: {style="display: flex; align-items: center;"}
+<img src="lf.png" alt="CS50" style="width: 100px; margin-right: 15px;"/>
+
+<h3>Application Manager / Strength and Conditioning Coach</h3>
+:::
+
+-   Optimized business application system, driving a 500% increase in clientele and an 800% boost in media output.
+-   Conducted data-driven performance analyses using research-based training sessions for 50+ elite athletes.
+-   Enhanced system communication, streamlining interdisciplinary collaboration for personalized user experiences.
+
+

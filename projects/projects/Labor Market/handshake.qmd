@@ -1,0 +1,20 @@
+---
+title: "Oakland University: Labor Market"
+description: "A script that uses data from internal sourcing at Oakland University, BLS, ONET, and Lightcast to show and develop reports for career paths that students can follow associated with OU Majors."
+date: May 30, 2025
+author: "Brandon Owens"
+categories: ["Oakland University", "Python", "OOP", "PowerBI"]
+about:
+  template: trestles
+  image: labor.jpg
+  links: 
+    - icon: github
+      text: "GitHub"
+      href: https://github.com/CLDC-OU/Labor-Market
+---
+
+This collection of scripts takes inputs from scraped Hot 50 MI jobs information, Lightcast Occupation Reports, CIP to SOC conversions, and University majors and delivers tabular data breaking down all of the professions associated with university degrees, statistics of demographics, information of the positions, hiring data for the state of Michigan, and growth projections.
+
+## What Happens to the Data?
+
+After these reports are created, they are streamlined into PowerBI Dashboards that are effectively used by Oakland University's Career and Life Design Center.

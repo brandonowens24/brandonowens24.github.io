@@ -13,6 +13,8 @@ website:
         text: Projects
       - href: education/education.qmd
         text: Education
+      - href: experience/experience.qmd
+        text: Experience
         
     right:
       - icon: linkedin
