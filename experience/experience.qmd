@@ -7,13 +7,12 @@ title: "Professional Experience"
 ::: {style="display: flex; align-items: center;"}
 <img src="phx.png" alt="PHX SUNS" style="width: 100px; margin-right: 15px;"/>
 
-<h2>Data Science / Machine Learning Intern</h2>
+<h2>Applied Data Science Contractor</h2>
 :::
 
--   Assist in the design and execution of rigorous statistical analyses in support of Basketball Operations and Front Office decision making.
--   Design, build, and maintain data pipelines for machine learning inference for use by staff in game and decision preparation.
--   Utilize statistical analysis and data mining techniques while keeping up with the latest developments and advances in sports analytics.
-
+-   Engineered a custom trade simulation platform leveraging probabilistic modeling and deep learning architectures in Python, pinpointing high-value roster targets and informing \$300M+ in critical offseason asset acquisitions.
+-   Developed advanced statistical forecasting and liquidity simulation frameworks via Bayesian Hierarchical modeling and Temporal Fusion Transformers using AWS cloud infrastructure, collaborating with front office and coaching to optimize trades, rotations, and long-term asset strategy.
+-   Spearheaded end-to-end deployment of scenario-based simulation engines, integrating machine learning and database solutions to enhance decision-making processes in high-stakes, live-game situations.
 
 ## Oakland University
 
@@ -36,9 +35,9 @@ title: "Professional Experience"
 <h3>Data Analyst Intern</h3>
 :::
 
--   Automated reporting workflows in Python and Tableau to streamlien Fair Market Rate analysis for Section 8 housing.
--   Developed machine learning algorithms to evaluate new homeless shelters, chronic homelessness, and emergency care.
--   Presented actionable data insights to a non-technical audience (300+ employees) via the HMIS Data Summit.
+-   Automated reporting workflows using R and Tableau, enabling data-driven decisions that improved housing outcomes for individuals seeking Section 8 assistance in Detroit.
+-   Built geospatial predictive models to optimize the allocation of emergency care and shelter resources, ensuring timely support for vulnerable populations.
+-   Communicated actionable insights to 300+ non-technical staff through dashboards and presentations, enhancing operational efficiency and informing strategic, evidence-based decision-making to optimize community impact.
 
 ## Sports Info Solutions
 
@@ -60,8 +59,6 @@ title: "Professional Experience"
 <h3>Application Manager / Strength and Conditioning Coach</h3>
 :::
 
--   Optimized business application system, driving a 500% increase in clientele and an 800% boost in media output.
--   Conducted data-driven performance analyses using research-based training sessions for 50+ elite athletes.
--   Enhanced system communication, streamlining interdisciplinary collaboration for personalized user experiences.
-
-
+-   Produced and analyzed digital campaigns, achieving a 500% increase in clientele and 800% boost in training sales.
+-   Developed custom, data-driven performance programs for 50+ elite athletes to advance training outcomes.
+-   Cultivated strong client relationships by supporting hundreds of individuals through training and rehabilitation.
