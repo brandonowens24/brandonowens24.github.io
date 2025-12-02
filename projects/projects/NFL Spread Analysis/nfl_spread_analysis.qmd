@@ -10,10 +10,10 @@ about:
   links: 
     - icon: newspaper
       text: "Paper"
-      href: https://github.com/brandonowens24/NFL-Count-Modelling/blob/main/project_report.pdf
+      href: https://github.com/brandonowens24/NFL-Count-Modelling/blob/main/Competency%20Project%20Report.pdf
     - icon: file-earmark-ppt-fill
       text: "Presentation"
-      href: https://github.com/brandonowens24/NFL-Count-Modelling/blob/main/NFL_slides.pdf
+      href: https://github.com/brandonowens24/NFL-Count-Modelling/blob/main/Competency%20Presentation.pdf
     - icon: github
       text: "GitHub"
       href: https://github.com/brandonowens24/NFL-Count-Modelling
