@@ -2,11 +2,11 @@
   {
     "listing": "/projects/projects.html",
     "items": [
+      "/projects/projects/NFL Spread Analysis/nfl_spread_analysis.html",
       "/projects/projects/Labor Market/handshake.html",
       "/projects/projects/Handshake Timeline Reporting/handshake.html",
       "/projects/projects/NBA Moneyline Predictor/nba_ml.html",
       "/projects/projects/March Madness Linear Models I/mm_lm1.html",
-      "/projects/projects/NFL Spread Analysis/nfl_spread_analysis.html",
       "/projects/projects/ShotQuality Kaggle Competition/shotquality.html",
       "/projects/projects/Fair Market Mapping/fair_market.html",
       "/projects/projects/NFL Injuries Bayesian Analysis/nfl_injuries_bayesian.html",

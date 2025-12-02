@@ -1,7 +1,7 @@
 ---
 title: "Analysis of Betting Strategies in the NFL Playoffs Through Bayesian Hierarchical Simulation"
 description: "A Bayesian Analysis that focuses on evaluating spread betting strategies during the 2023-24 NFL playoffs."
-date: November 6, 2024
+date: November 6, 2025
 author: "Brandon Owens"
 categories: ["NFL", "Bayesian", "R", "Sports", "Modelling"]
 about:
