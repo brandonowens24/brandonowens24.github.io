@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Brandon Owens">
+<meta name="dcterms.date" content="2024-11-06">
+<meta name="description" content="A Bayesian Analysis that focuses on evaluating spread betting strategies during the 2023-24 NFL playoffs.">
 
-<title>Education – Brandon Owens</title>
+<title>Analysis of Betting Strategies in the NFL Playoffs Through Bayesian Hierarchical Simulation – Brandon Owens</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +26,21 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-e84ec1af5c18c64b3922cec9fafcf8c8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-e84ec1af5c18c64b3922cec9fafcf8c8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Brandon Owens</span>
     </a>
   </div>
@@ -89,19 +91,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects/projects.html"> 
+    <a class="nav-link" href="../../../projects/projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../education/education.html" aria-current="page"> 
+    <a class="nav-link" href="../../../education/education.html"> 
 <span class="menu-text">Education</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../experience/experience.html"> 
+    <a class="nav-link" href="../../../experience/experience.html"> 
 <span class="menu-text">Experience</span></a>
   </li>  
 </ul>
@@ -135,123 +137,73 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
-   
   <ul>
-  <li><a href="#schooling" id="toc-schooling" class="nav-link active" data-scroll-target="#schooling">Schooling</a></li>
-  <li><a href="#certifications" id="toc-certifications" class="nav-link" data-scroll-target="#certifications">Certifications</a></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">ABSTRACT</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
+<div class="quarto-about-trestles">
+  <div class="about-entity">
+    <img src="cover.png" class="about-image
+  rounded " style="width: 20em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Education</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
+<h1 class="title">Analysis of Betting Strategies in the NFL Playoffs Through Bayesian Hierarchical Simulation</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">NFL</div>
+    <div class="quarto-category">Bayesian</div>
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">Sports</div>
+    <div class="quarto-category">Modelling</div>
   </div>
-  
-
-
+  </div>
+<div>
+  <div class="description">
+    A Bayesian Analysis that focuses on evaluating spread betting strategies during the 2023-24 NFL playoffs.
+  </div>
+</div>
+<div class="quarto-title-meta">
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Brandon Owens </p>
+          </div>
+  </div>
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 6, 2024</p>
+    </div>
+  </div>
+  </div>
 </header>
+    <div class="about-links">
+  <a href="https://github.com/brandonowens24/NFL-Count-Modelling/blob/main/Competency%20Project%20Report.pdf" class="about-link" rel="" target="">
+    <i class="bi bi-newspaper"></i>
+     <span class="about-link-text">Paper</span>
+  </a>
+  <a href="https://github.com/brandonowens24/NFL-Count-Modelling/blob/main/Competency%20Presentation.pdf" class="about-link" rel="" target="">
+    <i class="bi bi-file-earmark-ppt-fill"></i>
+     <span class="about-link-text">Presentation</span>
+  </a>
+  <a href="https://github.com/brandonowens24/NFL-Count-Modelling" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">GitHub</span>
+  </a>
+</div>
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
 
-
-<section id="schooling" class="level2">
-<h2 class="anchored" data-anchor-id="schooling">Schooling</h2>
-<div style="display: flex; align-items: center;">
-<p><img src="ou_grizz.png" alt="Oakland University" style="width: 100px; margin-right: 15px;"></p>
-<h2 class="anchored">
-M.S. in Applied Statistics
-</h2>
-</div>
-<ul>
-<li><strong>GPA</strong>: 4.0</li>
-<li><strong>Position(s) Held</strong>: Graduate Research Assistant (Data Scientist for the Career and Life Design Center)</li>
-<li><strong>Relevant Coursework</strong>:
-<ul>
-<li>Practical Computing for Data Analysis, Bayesian Data Analysis, Natural Language Processing, Applied Linear Models, Mathematical Statistics, Probability and Decision Theory, Multivariate Calculus, Linear Algebra, Reliability and Lifespan Data Analysis</li>
-</ul></li>
-<li><strong>Groups</strong>:
-<ul>
-<li>Oakland University Exercise Science Club</li>
-<li>Oakland University GrizzHacks</li>
-<li>Oakland University Mathematical Society</li>
-</ul></li>
-</ul>
-<div style="display: flex; align-items: center;">
-<p><img src="ou_grizz.png" alt="Oakland University" style="width: 100px; margin-right: 15px;"></p>
-<h2 class="anchored">
-B.S. in Exercise Science
-</h2>
-</div>
-<ul>
-<li><strong>GPA</strong>: 4.0</li>
-<li><strong>Awards/Honors</strong>:
-<ul>
-<li>Presidential Platinum Scholar (2019-2022)</li>
-<li>President’s List (2019-2022)</li>
-</ul></li>
-<li><strong>Relevant Coursework</strong>:
-<ul>
-<li>Introduction to Probability Theory, Human Physiology, Functional Anatomy, Gross Anatomy, Human Pathology, Clinical Medicine, Motor Control, Biomechanics, Microeconomics, Macroeconomics</li>
-</ul></li>
-<li><strong>Groups</strong>:
-<ul>
-<li>Oakland University Exercise Science Club</li>
-</ul></li>
-</ul>
-</section>
-<section id="certifications" class="level2">
-<h2 class="anchored" data-anchor-id="certifications">Certifications</h2>
-<div style="display: flex; align-items: center;">
-<p><img src="stanford.png" alt="Machine Learning" style="width: 100px; margin-right: 15px;"></p>
-<h3 class="anchored">
-Machine Learning Coursera Certification
-</h3>
-</div>
-<ul>
-<li>Obtained: January 2025</li>
-</ul>
-<div style="display: flex; align-items: center;">
-<p><img src="tableau.jpg" alt="Tableau" style="width: 100px; margin-right: 15px;"></p>
-<h3 class="anchored">
-Tableau Data Analyst Certification
-</h3>
-</div>
-<ul>
-<li>Obtained: August 2024</li>
-</ul>
-<div style="display: flex; align-items: center;">
-<p><img src="harvard.png" alt="CS50" style="width: 100px; margin-right: 15px;"></p>
-<h3 class="anchored">
-Harvard CS50 Certification
-</h3>
-</div>
-<ul>
-<li>Obtained: September 2023</li>
-</ul>
-<div style="display: flex; align-items: center;">
-<p><img src="cscs.jpg" alt="NSCA CSCS" style="width: 100px; margin-right: 15px;"></p>
-<h3 class="anchored">
-NSCA Certified Strength and Conditioning Specialist (CSCS)
-</h3>
-</div>
-<ul>
-<li>Obtained: December 2022</li>
-</ul>
+<section id="abstract" class="level2">
+<h2 data-anchor-id="abstract">ABSTRACT</h2>
+<p>The main goal of this competency report is to evaluate a Bayesian hierarchical modeling approach using game data from the 2024–2025 NFL regular season. We develop and analyze a Bayesian hierarchical count regression model to estimate team strengths and predict scoring outcomes in the context of the NFL Playoffs for the aforementioned season. Offensive and defensive abilities are modeled separately, allowing for a flexible representation of team performance. To capture the uncertainty within game outcomes, Monte Carlo simulations are employed, generating predictive distributions for playoff matchups and point differentials. Although profitability proved to be extremely variable due to the small sample size of the playoffs, the analysis demonstrates how hierarchical modeling and simulation can formalize betting evaluations in highly liquid markets. By integrating statistical modeling with simulation-based inference and decision-making frameworks, this competency report contributes to the growing literature on sports analytics, as well as demonstrating the practical evaluation of betting strategies in professional retail sports markets.</p>
 
 
 </section>
-
-</main> <!-- /main -->
+</main></div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -272,13 +224,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
